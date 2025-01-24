@@ -1,9 +1,9 @@
 # /// script
 # dependencies = [
-#   "test-python@git+https://github.com/brady-spiva/test-python.git"
+#   "test_python@git+https://github.com/brady-spiva/test-python.git"
 # ]
 # ///
+help("modules")
+from scripts import quarantine_user
 
-from test_python import scripts
-
-scripts.quarantine_user.main()
+quarantine_user
